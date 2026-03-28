@@ -18,6 +18,7 @@
         <li><a href="projets.html" class="active">Projets</a></li>
         <li><a href="veille.html">Veille</a></li>
         <li><a href="patrimoine.html">Patrimoine</a></li>
+        <li><a href="competences.html">Compétences</a></li>
       </ul>
     </nav>
   </header>
@@ -27,118 +28,95 @@
   <p>Projets réalisés durant ma formation BTS SIO SISR</p>
 </section>
 
-<section class="section">
+<section id="projects" class="section">
+  <h2>Projets</h2>
   <div class="cards">
 
-  <div class="card">
-    <h3>Infrastructure Windows Server (AD DS, DNS, DHCP)</h3>
-    <p>
-      Mise en place d’une infrastructure Active Directory sous Windows Server 2022
-      comprenant la configuration des services AD DS, DNS et DHCP.
-    </p>
-    <p><strong>Compétences :</strong> Gestion des utilisateurs, OU, GPO, administration système</p>
-    <p><strong>Technologies :</strong> Windows Server 2022</p>
+    <div class="card">
+      <h3>Infrastructure Windows Server</h3>
+      <p>
+        Configuration de AD DS, DNS, DHCP et GPO sur Windows Server avec plusieurs VM
+        (contrôleur de domaine, serveur de fichiers et client).
+      </p>
+      <p><strong>Compétences :</strong> Gérer le patrimoine informatique, Mettre à disposition des services informatiques</p>
+      <p><strong>Technologies :</strong> Windows Server 2022, Active Directory, PowerShell</p>
+    </div>
+
+    <div class="card">
+      <h3>Automatisation PowerShell</h3>
+      <p>
+        Scripts pour renommer PC, config IP fixe, gérer utilisateurs/OU, import CSV,
+        et automatiser l’installation de services AD DS/DNS/DHCP.
+      </p>
+      <p><strong>Compétences :</strong> Gérer le patrimoine informatique, Travailler en mode projet</p>
+      <p><strong>Technologies :</strong> PowerShell</p>
+    </div>
+
+    <div class="card">
+      <h3>Infrastructure Linux (DNS/DHCP)</h3>
+      <p>
+        Mise en place de serveurs Debian avec configuration DNS (Bind9) et DHCP (Kea DHCP).
+      </p>
+      <p><strong>Compétences :</strong> Gérer le patrimoine informatique, Mettre à disposition des services informatiques</p>
+      <p><strong>Technologies :</strong> Debian, Bind9, Kea DHCP</p>
+    </div>
+
+    <div class="card">
+      <h3>Supervision réseau</h3>
+      <p>
+        Déploiement de la supervision avec Prometheus, Grafana et Node Exporter,
+        alertes via Alertmanager et postfix.
+      </p>
+      <p><strong>Compétences :</strong> Gérer le patrimoine informatique, Organiser son développement professionnel</p>
+      <p><strong>Technologies :</strong> Prometheus, Grafana, Node Exporter</p>
+    </div>
+
+    <div class="card">
+      <h3>Reverse Proxy avec Traefik</h3>
+      <p>
+        Mise en place d’un reverse proxy pour sécuriser et gérer l’accès aux services web.
+      </p>
+      <p><strong>Compétences :</strong> Mettre à disposition des services informatiques, Travailler en mode projet</p>
+      <p><strong>Technologies :</strong> Traefik</p>
+    </div>
+
+    <div class="card">
+      <h3>Communication interne via Docker</h3>
+      <p>
+        Création d’un service de chat pour les étudiants SLAM via conteneur Docker.
+      </p>
+      <p><strong>Compétences :</strong> Développer la présence en ligne, Travailler en mode projet</p>
+      <p><strong>Technologies :</strong> Docker</p>
+    </div>
+
+    <div class="card">
+      <h3>Cybersécurité – Tests d’attaque</h3>
+      <p>
+        Tests de sécurité en environnement contrôlé, incluant des attaques par brute force
+        pour évaluer la robustesse des mots de passe.
+      </p>
+      <p><strong>Compétences :</strong> Mettre à disposition des services informatiques, Organiser son développement professionnel</p>
+    </div>
+
+    <div class="card">
+      <h3>Gestion de parc informatique (GLPI)</h3>
+      <p>
+        Installation et accès à GLPI pour l’inventaire et la gestion des ressources du SI.
+      </p>
+      <p><strong>Compétences :</strong> Gérer le patrimoine informatique, Répondre aux incidents et demandes</p>
+      <p><strong>Technologies :</strong> GLPI</p>
+    </div>
+
+    <div class="card">
+      <h3>Sauvegarde et restauration</h3>
+      <p>
+        Création d’un système de backup et de scripts de restauration pour une application.
+      </p>
+      <p><strong>Compétences :</strong> Gérer le patrimoine informatique, Mettre à disposition des services informatiques</p>
+    </div>
+
   </div>
 
-  <div class="card">
-    <h3>Automatisation PowerShell</h3>
-    <p>
-      Développement de scripts PowerShell permettant d’automatiser l’administration
-      système : configuration IP, installation des rôles AD DS/DNS/DHCP,
-      gestion des utilisateurs et import CSV.
-    </p>
-    <p><strong>Compétences :</strong> Automatisation, scripting, administration</p>
-    <p><strong>Technologies :</strong> PowerShell</p>
-  </div>
-
-  <div class="card">
-    <h3>Infrastructure Linux (DNS/DHCP)</h3>
-    <p>
-      Mise en place d’un serveur réseau sous Debian avec configuration des services
-      DNS (Bind9) et DHCP (Kea DHCP).
-    </p>
-    <p><strong>Compétences :</strong> Administration Linux, services réseau</p>
-    <p><strong>Technologies :</strong> Debian, Bind9, Kea DHCP</p>
-  </div>
-
-  <div class="card">
-    <h3>Supervision réseau</h3>
-    <p>
-      Déploiement d’une solution de supervision complète avec Prometheus,
-      Grafana et Node Exporter, incluant la gestion d’alertes par mail.
-    </p>
-    <p><strong>Compétences :</strong> Monitoring, analyse, alerting</p>
-    <p><strong>Technologies :</strong> Prometheus, Grafana, Alertmanager</p>
-  </div>
-
-  <div class="card">
-    <h3>Reverse Proxy avec Traefik</h3>
-    <p>
-      Configuration d’un reverse proxy pour sécuriser et gérer l’accès
-      aux services web d’un serveur.
-    </p>
-    <p><strong>Compétences :</strong> Réseaux, sécurité, web</p>
-    <p><strong>Technologies :</strong> Traefik</p>
-  </div>
-
-  <div class="card">
-    <h3>Authentification centralisée Microsoft</h3>
-    <p>
-      Mise en place d’un système d’authentification centralisé
-      dans un environnement Microsoft existant.
-    </p>
-    <p><strong>Compétences :</strong> Gestion des identités, sécurité</p>
-    <p><strong>Technologies :</strong> Active Directory</p>
-  </div>
-
-  <div class="card">
-    <h3>Déploiement d’outils open source (IRIS)</h3>
-    <p>
-      Conception et sécurisation d’une infrastructure intégrant des outils
-      open source dans un environnement existant.
-    </p>
-    <p><strong>Compétences :</strong> Sécurisation, déploiement, intégration</p>
-  </div>
-
-  <div class="card">
-    <h3>Virtualisation et conteneurisation</h3>
-    <p>
-      Création d’un service de communication (chat) via Docker
-      pour un usage interne entre étudiants.
-    </p>
-    <p><strong>Compétences :</strong> Virtualisation, conteneurs</p>
-    <p><strong>Technologies :</strong> Docker</p>
-  </div>
-
-  <div class="card">
-    <h3>Cybersécurité - Tests d’attaque</h3>
-    <p>
-      Réalisation de tests de sécurité incluant des attaques par brute force
-      afin d’identifier les vulnérabilités d’authentification.
-    </p>
-    <p><strong>Compétences :</strong> Pentest, analyse des failles</p>
-  </div>
-
-  <div class="card">
-    <h3>Gestion de parc informatique (GLPI)</h3>
-    <p>
-      Installation et configuration de GLPI avec son agent pour la gestion
-      et l’inventaire d’un parc informatique.
-    </p>
-    <p><strong>Compétences :</strong> Gestion du SI, support IT</p>
-    <p><strong>Technologies :</strong> GLPI</p>
-  </div>
-
-  <div class="card">
-    <h3>Sauvegarde et restauration</h3>
-    <p>
-      Mise en place d’un système de sauvegarde d’application avec
-      script automatisé de restauration.
-    </p>
-    <p><strong>Compétences :</strong> Backup, continuité de service</p>
-  </div>
-
-</div>
 </section>
 
 <footer>
