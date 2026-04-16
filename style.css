@@ -322,3 +322,16 @@ header{
   display: flex;
   flex-direction: column;
 }
+
+.card ul {
+  margin: 10px 0 20px 20px; /* espace en bas + indentation propre */
+}
+
+.card li {
+  margin-bottom: 6px;
+}
+
+.card .btn {
+  display: inline-block;
+  margin-top: 15px;
+}
