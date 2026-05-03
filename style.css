@@ -203,10 +203,8 @@ header {
 
 /* bouton dans cards */
 .card .btn {
-  margin-top: auto; /* pousse le bouton en bas */
-  align-self: flex-start;
-  width: fit-content;
-  white-space: nowrap;
+  margin-top: auto;
+  align-self: center; /* 👉 centre TOUS les boutons */
 }
 
 /* =========================
@@ -364,4 +362,3 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
